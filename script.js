@@ -22,3 +22,5 @@ let FirstName = 'Ron';
 let lastName = 'Weasley';
 console.log(FirstName.concat(' ', lastName));
 
+let sentence = 'Draco is a good wizard';
+console.log(sentence.replace('good', 'bad'));
