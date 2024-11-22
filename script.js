@@ -38,3 +38,7 @@ console.log(spells);
 let professors = ['Dumbledore', 'McGonagall', 'Snape', 'Hagrid'];
 let newProfessors = professors.slice(1, 3);
 console.log(newProfessors);
+
+let students = ['Neville', 'Seamus', 'Dean', 'Parvati'];
+students.splice(1, 2);
+console.log(students);
