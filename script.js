@@ -7,3 +7,7 @@ for (let i = 0; i < characters.length; i++) {
 let firstName = 'Harry';
 let house = 'Gryffindor';
 console.log(`Welcome, ${firstName} of ${house}!`);
+
+let characterName = 'Hermione';
+console.log(characterName.toLowerCase());
+console.log(characterName.toUpperCase());
