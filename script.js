@@ -46,3 +46,7 @@ console.log(students);
 let phrase = ' Mischief Managed ';
 let result = phrase.trim().toLowerCase().concat(' - Harry');
 console.log(result);
+
+let wizards = ['Harry', 'Hermione', 'Ron'];
+wizards.push('Luna', 'Draco');
+console.log(wizards);
