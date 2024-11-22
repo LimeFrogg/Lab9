@@ -11,3 +11,6 @@ console.log(`Welcome, ${firstName} of ${house}!`);
 let characterName = 'Hermione';
 console.log(characterName.toLowerCase());
 console.log(characterName.toUpperCase());
+
+let spell = ' Expelliarmus ';
+console.log(spell.trim());
