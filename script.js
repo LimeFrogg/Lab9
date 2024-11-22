@@ -17,3 +17,8 @@ console.log(spell.trim());
 
 let quote = 'I solemnly swear that I am up to no good';
 console.log(quote.slice(13, 18));  // Extract 'swear'
+
+let FirstName = 'Ron';
+let lastName = 'Weasley';
+console.log(FirstName.concat(' ', lastName));
+
