@@ -24,3 +24,8 @@ console.log(FirstName.concat(' ', lastName));
 
 let sentence = 'Draco is a good wizard';
 console.log(sentence.replace('good', 'bad'));
+
+let houses = ['Gryffindor', 'Hufflepuff', 'Ravenclaw'];
+houses.push('Slytherin');
+houses.pop();
+console.log(houses);
