@@ -50,3 +50,7 @@ console.log(result);
 let wizards = ['Harry', 'Hermione', 'Ron'];
 wizards.push('Luna', 'Draco');
 console.log(wizards);
+
+let message = 'Welcome to Hogwarts School of Witchcraft and Wizardry';
+let answer = message.slice(15, 23).concat(' Castle');
+console.log(answer);
