@@ -34,3 +34,7 @@ let spells = ['Alohomora', 'Lumos', 'Nox'];
 spells.unshift('Accio');
 spells.shift();
 console.log(spells);
+
+let professors = ['Dumbledore', 'McGonagall', 'Snape', 'Hagrid'];
+let newProfessors = professors.slice(1, 3);
+console.log(newProfessors);
